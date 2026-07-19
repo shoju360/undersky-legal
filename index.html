@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Undersky</title>
+<style>
+/* Undersky legal/support — Painted Planetarium, static edition. */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #0D1424; --raised: #162138; --card: #1A2745; --line: #2C3B5E;
+  --text: #F0EAD9; --dim: #9AA3BB; --faint: #68738F;
+  --accent: #8FBFF2; --accent-dim: #5A7FB0;
+}
+body {
+  background: radial-gradient(120% 90% at 50% 0%, #1A2745 0%, var(--bg) 55%, #090E1B 100%);
+  color: var(--text);
+  font: 16px/1.65 -apple-system, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+main { max-width: 680px; margin: 0 auto; padding: 64px 24px 96px; }
+.brand {
+  color: var(--accent); letter-spacing: 6px; font-weight: 700; font-size: 13px;
+  text-decoration: none; display: inline-block;
+}
+.tag { color: var(--faint); font-style: italic; font-size: 13px; margin-top: 6px; }
+h1 { font-size: 34px; line-height: 1.2; margin: 28px 0 8px; }
+h2 { font-size: 15px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); margin: 40px 0 12px; font-weight: 600; }
+p, li { color: var(--dim); }
+p { margin: 12px 0; }
+ul { margin: 12px 0 12px 20px; }
+li { margin: 6px 0; }
+strong { color: var(--text); font-weight: 600; }
+a { color: var(--accent); }
+.rule { height: 1px; background: var(--line); margin: 28px 0; border: 0; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 20px 22px; margin: 18px 0;
+}
+.updated { color: var(--faint); font-size: 12.5px; }
+nav { margin-top: 18px; }
+nav a { margin-right: 18px; font-size: 14px; }
+footer { color: var(--faint); font-size: 12px; margin-top: 64px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="./">UNDERSKY</a>
+  <p class="tag">Everyone's under it. This one's yours.</p>
+  <h1>The astrology app that treats you like a person, not a wallet.</h1>
+  <p>Your whole sky, read every day — every active aspect, written for you,
+  never pasted. Cast to the minute with real ephemeris math.</p>
+  <div class="card">
+    <p><strong>Our promises</strong></p>
+    <ul>
+      <li>Saved charts never lock behind a paywall.</li>
+      <li>Export and backup are free, forever.</li>
+      <li>One honest price — no packs, no traps.</li>
+    </ul>
+  </div>
+  <p>Coming to the App Store.</p>
+  <nav>
+    <a href="./privacy/">Privacy</a>
+    <a href="./support/">Support</a>
+  </nav>
+  <footer>© 2026 Undersky · net.yoinkit.undersky</footer>
+</main>
+</body>
+</html>
